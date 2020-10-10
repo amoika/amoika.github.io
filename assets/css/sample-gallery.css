@@ -1,0 +1,124 @@
+/* Create two equal columns that floats next to each other */
+
+.secol h1 {
+    line-height: 1.1em;
+    font-size: 432%;
+    margin: 0.5em 0;
+}
+
+.ficol h2::before {
+    content: '#';
+}
+
+ul {
+    padding: 0 1em 0 1em;
+}
+
+a {
+    color: #d40039;
+}
+
+.seegal {
+    display: none;
+}
+
+.icons {
+    color: #d40039;
+    font-weight: 600;
+}
+
+a img {
+    border: none;
+}
+
+
+
+code {
+    font-family: Consolas, Menlo, "Lucida Console", monospace;
+    padding: 1em;
+    background: #efefef;
+    display: block;
+    font-size: 90%;
+    line-height: 1.8em;
+}
+
+.column {
+    float: left;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+}
+
+
+.column .first {
+    display: none;
+    opacity: 1;
+}
+
+.bigger,
+.secol p {
+    font-size: 111%;
+    line-height: 1.7em;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 6em;
+}
+
+.gallery img {
+    float: left;
+    width: 100%;
+    
+    margin-bottom: 1.5em;
+    height: 50%;
+    border-radius: 6px;
+    opacity: 0.85;
+    max-width: calc(100% - 0.06em);
+    box-shadow: black 5px 5px 20px 0px;
+}
+
+.gallery img:hover {
+    opacity: 1;
+}
+
+.gallery {
+    margin-top: 2em;
+}
+
+
+
+
+.topimg {
+    overflow: hidden;
+    width: 100%;
+    max-width: 788px;
+    margin-top: 2em;
+}
+
+.topimg img {
+    width: 100%;
+    max-width: 788px;
+    margin-top: -1em;
+}
+
+
+.gallery .topimg {
+    max-width: 646px;
+    height: 6.5em;
+    width: 96%;
+    border-radius: 6px;
+    opacity: 1;
+    margin-bottom: 3%;
+}
